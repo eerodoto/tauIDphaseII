@@ -1,0 +1,87 @@
+{ decls }
+namespace edm {  }
+namespace reco { class BaseTauTagInfo; }
+namespace reco { class CaloTauTagInfo; }
+namespace reco { class PFTauTagInfo; }
+namespace reco { class BaseTau; }
+namespace reco { class CaloTau; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace reco { class L2TauIsolationInfo; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { namespace reftobase {  } }
+namespace reco { class Candidate; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace std {  }
+namespace reco {  }
+namespace edm { template <typename CKey, typename Val, typename index> class OneToValue; }
+
+[ libDataFormatsTauReco.so ]
+# List of selected classes
+class edm::AssociationMap<edm::OneToValue<reco::CaloJetCollection,reco::L2TauIsolationInfo,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::CaloJet>,reco::L2TauIsolationInfo,unsigned int> >
+class edm::Ref<std::vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<std::vector<reco::BaseTau>,reco::BaseTau> >
+class edm::Ref<std::vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo> >
+class edm::Ref<std::vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<std::vector<reco::CaloTau>,reco::CaloTau> >
+class edm::Ref<std::vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo> >
+class edm::Ref<std::vector<reco::PFTauTagInfo>,reco::PFTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTagInfo>,reco::PFTauTagInfo> >
+class edm::Ref<vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<vector<reco::BaseTau>,reco::BaseTau> >
+class edm::Ref<vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo> >
+class edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >
+class edm::Ref<vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo> >
+class edm::Ref<vector<reco::PFTauTagInfo>,reco::PFTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTagInfo>,reco::PFTauTagInfo> >
+class edm::RefProd<std::vector<reco::BaseTau> >
+class edm::RefProd<std::vector<reco::BaseTauTagInfo> >
+class edm::RefProd<std::vector<reco::CaloTau> >
+class edm::RefProd<std::vector<reco::CaloTauTagInfo> >
+class edm::RefProd<std::vector<reco::PFTauTagInfo> >
+class edm::RefProd<vector<reco::BaseTau> >
+class edm::RefProd<vector<reco::BaseTauTagInfo> >
+class edm::RefProd<vector<reco::CaloTau> >
+class edm::RefProd<vector<reco::CaloTauTagInfo> >
+class edm::RefProd<vector<reco::PFTauTagInfo> >
+class edm::RefVector<std::vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<std::vector<reco::BaseTau>,reco::BaseTau> >
+class edm::RefVector<std::vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo> >
+class edm::RefVector<std::vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<std::vector<reco::CaloTau>,reco::CaloTau> >
+class edm::RefVector<std::vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo> >
+class edm::RefVector<std::vector<reco::PFTauTagInfo>,reco::PFTauTagInfo,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTagInfo>,reco::PFTauTagInfo> >
+class edm::RefVector<vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<vector<reco::BaseTau>,reco::BaseTau> >
+class edm::RefVector<vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::BaseTauTagInfo>,reco::BaseTauTagInfo> >
+class edm::RefVector<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >
+class edm::RefVector<vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::CaloTauTagInfo>,reco::CaloTauTagInfo> >
+class edm::RefVector<vector<reco::PFTauTagInfo>,reco::PFTauTagInfo,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTagInfo>,reco::PFTauTagInfo> >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<reco::CaloJetCollection,reco::L2TauIsolationInfo,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::CaloJet>,reco::L2TauIsolationInfo,unsigned int> > >
+class edm::Wrapper<std::vector<reco::BaseTau> >
+class edm::Wrapper<std::vector<reco::BaseTauTagInfo> >
+class edm::Wrapper<std::vector<reco::CaloTau> >
+class edm::Wrapper<std::vector<reco::CaloTauTagInfo> >
+class edm::Wrapper<std::vector<reco::PFTauTagInfo> >
+class edm::Wrapper<vector<reco::BaseTau> >
+class edm::Wrapper<vector<reco::BaseTauTagInfo> >
+class edm::Wrapper<vector<reco::CaloTau> >
+class edm::Wrapper<vector<reco::CaloTauTagInfo> >
+class edm::Wrapper<vector<reco::PFTauTagInfo> >
+class edm::reftobase::Holder<reco::BaseTau,edm::Ref<std::vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<std::vector<reco::CaloTau>,reco::CaloTau> > >
+class edm::reftobase::Holder<reco::BaseTau,edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<std::vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<std::vector<reco::BaseTau>,reco::BaseTau> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::BaseTau>,reco::BaseTau,edm::refhelper::FindUsingAdvance<vector<reco::BaseTau>,reco::BaseTau> > >
+class map<unsigned int,reco::L2TauIsolationInfo>
+class reco::BaseTau
+class reco::BaseTauTagInfo
+class reco::CaloTau
+class reco::CaloTauTagInfo
+class reco::L2TauIsolationInfo
+class reco::PFTauTagInfo
+class vector<reco::BaseTau>
+class vector<reco::BaseTauTagInfo>
+class vector<reco::CaloTau>
+class vector<reco::CaloTauTagInfo>
+class vector<reco::PFTauTagInfo>
+header DataFormats/TauReco/interface/BaseTau.h
+header DataFormats/TauReco/interface/BaseTauTagInfo.h
+header DataFormats/TauReco/interface/CaloTau.h
+header DataFormats/TauReco/interface/CaloTauTagInfo.h
+header DataFormats/TauReco/interface/L2TauIsolationInfo.h
+header DataFormats/TauReco/interface/PFTauTagInfo.h

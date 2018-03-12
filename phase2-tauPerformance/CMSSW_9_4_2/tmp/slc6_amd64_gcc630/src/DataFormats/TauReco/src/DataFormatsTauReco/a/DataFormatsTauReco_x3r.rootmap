@@ -1,0 +1,40 @@
+{ decls }
+namespace edm {  }
+namespace reco { class HLTTau; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename T> class Wrapper; }
+namespace std {  }
+namespace reco { class BaseTau; }
+namespace reco { class PFTau; }
+namespace edm { template <typename T> class PtrVector; }
+namespace edm { template <typename T> class FwdPtr; }
+namespace reco {  }
+
+[ libDataFormatsTauReco.so ]
+# List of selected classes
+class edm::FwdPtr<reco::BaseTau>
+class edm::FwdPtr<reco::PFTau>
+class edm::Ptr<reco::BaseTau>
+class edm::Ptr<reco::PFTau>
+class edm::PtrVector<reco::BaseTau>
+class edm::Ref<std::vector<reco::HLTTau>,reco::HLTTau,edm::refhelper::FindUsingAdvance<std::vector<reco::HLTTau>,reco::HLTTau> >
+class edm::Ref<vector<reco::HLTTau>,reco::HLTTau,edm::refhelper::FindUsingAdvance<vector<reco::HLTTau>,reco::HLTTau> >
+class edm::RefProd<std::vector<reco::HLTTau> >
+class edm::RefProd<vector<reco::HLTTau> >
+class edm::RefVector<std::vector<reco::HLTTau>,reco::HLTTau,edm::refhelper::FindUsingAdvance<std::vector<reco::HLTTau>,reco::HLTTau> >
+class edm::RefVector<vector<reco::HLTTau>,reco::HLTTau,edm::refhelper::FindUsingAdvance<vector<reco::HLTTau>,reco::HLTTau> >
+class edm::Wrapper<std::vector<edm::FwdPtr<reco::BaseTau> > >
+class edm::Wrapper<std::vector<edm::FwdPtr<reco::PFTau> > >
+class edm::Wrapper<std::vector<edm::Ptr<reco::PFTau> > >
+class edm::Wrapper<std::vector<reco::HLTTau> >
+class edm::Wrapper<vector<edm::FwdPtr<reco::BaseTau> > >
+class edm::Wrapper<vector<edm::FwdPtr<reco::PFTau> > >
+class edm::Wrapper<vector<edm::Ptr<reco::PFTau> > >
+class edm::Wrapper<vector<reco::HLTTau> >
+class reco::HLTTau
+class vector<edm::FwdPtr<reco::BaseTau> >
+class vector<edm::FwdPtr<reco::PFTau> >
+class vector<edm::Ptr<reco::PFTau> >
+class vector<reco::HLTTau>
+header DataFormats/TauReco/interface/HLTTau.h

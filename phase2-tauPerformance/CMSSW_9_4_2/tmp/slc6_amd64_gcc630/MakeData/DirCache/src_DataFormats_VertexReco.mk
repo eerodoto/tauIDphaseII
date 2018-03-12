@@ -1,0 +1,2 @@
+ALL_PACKAGES += DataFormats/VertexReco
+subdirs_src_DataFormats_VertexReco := src_DataFormats_VertexReco_src src_DataFormats_VertexReco_test

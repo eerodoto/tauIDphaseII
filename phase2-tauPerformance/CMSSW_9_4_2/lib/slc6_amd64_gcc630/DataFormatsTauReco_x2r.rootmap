@@ -1,0 +1,308 @@
+{ decls }
+namespace std {  }
+namespace edm {  }
+namespace reco { class CaloTauDiscriminatorAgainstElectron; }
+namespace reco { class PFTauDiscriminatorByIsolation; }
+namespace reco { class PFTauDiscriminator; }
+namespace reco { class JetPiZeroAssociation; }
+namespace edm { template <typename C> class RefProd; }
+namespace reco { class PFJetChargedHadronAssociation; }
+namespace reco { class PFTauTransverseImpactParameter; }
+namespace reco { class PFTau; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace reco { class PFTau3ProngSummary; }
+namespace edm { namespace helper { class AssociationIdenticalKeyReference; } }
+namespace reco { class Vertex; }
+namespace edm { template <typename KeyRefProd, typename CVal, typename KeyRef, typename SizeType, typename KeyReferenceHelper> class AssociationVector; }
+namespace edm { template <typename T> class RefProd; }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { template <typename C> class Association; }
+namespace edm { namespace reftobase {  } }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace reco { class PFJet; }
+namespace reco {  }
+
+[ libDataFormatsTauReco.so ]
+# List of selected classes
+class edm::Association<std::vector<reco::PFTau3ProngSummary> >
+class edm::Association<std::vector<reco::PFTau3ProngSummaryCollection> >
+class edm::Association<std::vector<reco::PFTau3ProngSummaryRef> >
+class edm::Association<std::vector<reco::PFTauTransverseImpactParameter> >
+class edm::Association<std::vector<reco::PFTauTransverseImpactParameterCollection> >
+class edm::Association<std::vector<reco::PFTauTransverseImpactParameterRef> >
+class edm::Association<std::vector<reco::VertexRef> >
+class edm::Association<std::vector<std::vector<reco::VertexRef> > >
+class edm::Association<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class edm::Association<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class edm::Association<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class edm::Association<vector<reco::PFTau3ProngSummary> >
+class edm::Association<vector<reco::PFTauTransverseImpactParameter> >
+class edm::Association<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::Association<vector<vector<reco::PFTau3ProngSummary> > >
+class edm::Association<vector<vector<reco::PFTauTransverseImpactParameter> > >
+class edm::AssociationVector<edm::RefProd<vector<reco::PFJet> >,vector<vector<reco::PFRecoTauChargedHadron> >,edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFJet> >,vector<vector<reco::RecoTauPiZero> >,edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<float>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<int>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::Ref<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > > >
+class edm::Ref<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > > >
+class edm::Ref<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::Ref<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode>,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode> > >
+class edm::Ref<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > > >
+class edm::Ref<reco::CaloTauDiscriminatorAgainstElectron,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminatorAgainstElectron,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int> > >
+class edm::Ref<reco::JetPiZeroAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> >,edm::refhelper::FindUsingAdvance<reco::JetPiZeroAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> > > >
+class edm::Ref<reco::PFJetChargedHadronAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> >,edm::refhelper::FindUsingAdvance<reco::PFJetChargedHadronAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> > > >
+class edm::Ref<reco::PFTauDiscriminator,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float>,edm::refhelper::FindUsingAdvance<reco::PFTauDiscriminator,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float> > >
+class edm::Ref<reco::PFTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int>,edm::refhelper::FindUsingAdvance<reco::PFTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int> > >
+class edm::Ref<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >
+class edm::Ref<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection> >
+class edm::Ref<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef> >
+class edm::Ref<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >
+class edm::Ref<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection> >
+class edm::Ref<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef> >
+class edm::Ref<std::vector<reco::VertexRef>,reco::VertexRef,edm::refhelper::FindUsingAdvance<std::vector<reco::VertexRef>,reco::VertexRef> >
+class edm::Ref<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef>,edm::refhelper::FindUsingAdvance<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef> > >
+class edm::Ref<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class edm::Ref<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class edm::Ref<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >
+class edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >
+class edm::Ref<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::refhelper::FindUsingAdvance<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::Ref<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary> > >
+class edm::Ref<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter> > >
+class edm::RefProd<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::RefProd<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::RefProd<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::RefProd<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::RefProd<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::RefProd<reco::CaloTauDiscriminatorAgainstElectron>
+class edm::RefProd<reco::JetPiZeroAssociation>
+class edm::RefProd<reco::PFJetChargedHadronAssociation>
+class edm::RefProd<reco::PFTauDiscriminator>
+class edm::RefProd<reco::PFTauDiscriminatorByIsolation>
+class edm::RefProd<std::vector<reco::PFTau3ProngSummary> >
+class edm::RefProd<std::vector<reco::PFTau3ProngSummaryCollection> >
+class edm::RefProd<std::vector<reco::PFTau3ProngSummaryRef> >
+class edm::RefProd<std::vector<reco::PFTauTransverseImpactParameter> >
+class edm::RefProd<std::vector<reco::PFTauTransverseImpactParameterCollection> >
+class edm::RefProd<std::vector<reco::PFTauTransverseImpactParameterRef> >
+class edm::RefProd<std::vector<reco::VertexRef> >
+class edm::RefProd<std::vector<std::vector<reco::VertexRef> > >
+class edm::RefProd<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class edm::RefProd<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class edm::RefProd<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class edm::RefProd<vector<reco::PFTau3ProngSummary> >
+class edm::RefProd<vector<reco::PFTauTransverseImpactParameter> >
+class edm::RefProd<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::RefProd<vector<vector<reco::PFTau3ProngSummary> > >
+class edm::RefProd<vector<vector<reco::PFTauTransverseImpactParameter> > >
+class edm::RefVector<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > > >
+class edm::RefVector<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > > >
+class edm::RefVector<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::RefVector<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode>,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode> > >
+class edm::RefVector<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::refhelper::FindUsingAdvance<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > > >
+class edm::RefVector<reco::CaloTauDiscriminatorAgainstElectron,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminatorAgainstElectron,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int> > >
+class edm::RefVector<reco::JetPiZeroAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> >,edm::refhelper::FindUsingAdvance<reco::JetPiZeroAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> > > >
+class edm::RefVector<reco::PFJetChargedHadronAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> >,edm::refhelper::FindUsingAdvance<reco::PFJetChargedHadronAssociation,pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> > > >
+class edm::RefVector<reco::PFTauDiscriminator,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float>,edm::refhelper::FindUsingAdvance<reco::PFTauDiscriminator,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float> > >
+class edm::RefVector<reco::PFTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int>,edm::refhelper::FindUsingAdvance<reco::PFTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int> > >
+class edm::RefVector<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >
+class edm::RefVector<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection> >
+class edm::RefVector<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef> >
+class edm::RefVector<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >
+class edm::RefVector<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection> >
+class edm::RefVector<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef> >
+class edm::RefVector<std::vector<reco::VertexRef>,reco::VertexRef,edm::refhelper::FindUsingAdvance<std::vector<reco::VertexRef>,reco::VertexRef> >
+class edm::RefVector<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef>,edm::refhelper::FindUsingAdvance<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef> > >
+class edm::RefVector<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class edm::RefVector<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class edm::RefVector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class edm::RefVector<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >
+class edm::RefVector<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >
+class edm::RefVector<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::refhelper::FindUsingAdvance<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::RefVector<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary> > >
+class edm::RefVector<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTau3ProngSummary> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTau3ProngSummaryCollection> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTau3ProngSummaryRef> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTauTransverseImpactParameter> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTauTransverseImpactParameterCollection> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTauTransverseImpactParameterRef> > >
+class edm::Wrapper<edm::Association<std::vector<reco::VertexRef> > >
+class edm::Wrapper<edm::Association<std::vector<std::vector<reco::VertexRef> > > >
+class edm::Wrapper<edm::Association<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > > >
+class edm::Wrapper<edm::Association<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > > >
+class edm::Wrapper<edm::Association<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::Wrapper<edm::Association<vector<reco::PFTau3ProngSummary> > >
+class edm::Wrapper<edm::Association<vector<reco::PFTauTransverseImpactParameter> > >
+class edm::Wrapper<edm::Association<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > > >
+class edm::Wrapper<edm::Association<vector<vector<reco::PFTau3ProngSummary> > > >
+class edm::Wrapper<edm::Association<vector<vector<reco::PFTauTransverseImpactParameter> > > >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<reco::PFTauDecayMode>,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::PFTau> >,vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<reco::CaloTauDiscriminatorAgainstElectron>
+class edm::Wrapper<reco::JetPiZeroAssociation>
+class edm::Wrapper<reco::PFJetChargedHadronAssociation>
+class edm::Wrapper<reco::PFTau3ProngSumAssociation>
+class edm::Wrapper<reco::PFTauDecayModeAssociation>
+class edm::Wrapper<reco::PFTauDiscriminator>
+class edm::Wrapper<reco::PFTauDiscriminatorByIsolation>
+class edm::Wrapper<reco::PFTauTIPAssociation>
+class edm::Wrapper<reco::PFTauVertexAssociation>
+class edm::Wrapper<reco::PFTauVertexVAssociation>
+class edm::Wrapper<std::vector<reco::PFTau3ProngSummary> >
+class edm::Wrapper<std::vector<reco::PFTau3ProngSummaryCollection> >
+class edm::Wrapper<std::vector<reco::PFTau3ProngSummaryRef> >
+class edm::Wrapper<std::vector<reco::PFTauTransverseImpactParameter> >
+class edm::Wrapper<std::vector<reco::PFTauTransverseImpactParameterCollection> >
+class edm::Wrapper<std::vector<reco::PFTauTransverseImpactParameterRef> >
+class edm::Wrapper<std::vector<reco::VertexRef> >
+class edm::Wrapper<std::vector<std::vector<reco::VertexRef> > >
+class edm::Wrapper<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class edm::Wrapper<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class edm::Wrapper<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class edm::Wrapper<vector<reco::PFTau3ProngSummary> >
+class edm::Wrapper<vector<reco::PFTauTransverseImpactParameter> >
+class edm::Wrapper<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::Wrapper<vector<vector<reco::PFTau3ProngSummary> > >
+class edm::Wrapper<vector<vector<reco::PFTauTransverseImpactParameter> > >
+class edm::reftobase::Holder<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >,edm::Ref<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > > >
+class edm::reftobase::Holder<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >,edm::Ref<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > > >
+class edm::reftobase::Holder<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,edm::Ref<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,edm::refhelper::FindUsingAdvance<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class edm::reftobase::Holder<reco::PFTau3ProngSummary,edm::Ref<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >
+class edm::reftobase::Holder<reco::PFTau3ProngSummary,edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >
+class edm::reftobase::Holder<reco::PFTau3ProngSummaryCollection,edm::Ref<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryCollection>,reco::PFTau3ProngSummaryCollection> > >
+class edm::reftobase::Holder<reco::PFTau3ProngSummaryRef,edm::Ref<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau3ProngSummaryRef>,reco::PFTau3ProngSummaryRef> > >
+class edm::reftobase::Holder<reco::PFTauTransverseImpactParameter,edm::Ref<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >
+class edm::reftobase::Holder<reco::PFTauTransverseImpactParameter,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >
+class edm::reftobase::Holder<reco::PFTauTransverseImpactParameterCollection,edm::Ref<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterCollection>,reco::PFTauTransverseImpactParameterCollection> > >
+class edm::reftobase::Holder<reco::PFTauTransverseImpactParameterRef,edm::Ref<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauTransverseImpactParameterRef>,reco::PFTauTransverseImpactParameterRef> > >
+class edm::reftobase::Holder<reco::VertexRef,edm::Ref<std::vector<reco::VertexRef>,reco::VertexRef,edm::refhelper::FindUsingAdvance<std::vector<reco::VertexRef>,reco::VertexRef> > >
+class edm::reftobase::Holder<std::vector<reco::VertexRef>,edm::Ref<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef>,edm::refhelper::FindUsingAdvance<std::vector<std::vector<reco::VertexRef> >,std::vector<reco::VertexRef> > > >
+class edm::reftobase::Holder<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::Ref<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >,edm::refhelper::FindUsingAdvance<vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > > >
+class edm::reftobase::Holder<vector<reco::PFTau3ProngSummary>,edm::Ref<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTau3ProngSummary> >,vector<reco::PFTau3ProngSummary> > > >
+class edm::reftobase::Holder<vector<reco::PFTauTransverseImpactParameter>,edm::Ref<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter>,edm::refhelper::FindUsingAdvance<vector<vector<reco::PFTauTransverseImpactParameter> >,vector<reco::PFTauTransverseImpactParameter> > > >
+class pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float>
+class pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int>
+class pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> >
+class pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> >
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float>
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int>
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode>
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > >
+class pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class pair<reco::CaloTauRef,float>
+class pair<reco::CaloTauRef,int>
+class pair<reco::PFJetRef,std::vector<reco::PFRecoTauChargedHadron> >
+class pair<reco::PFJetRef,std::vector<reco::RecoTauPiZero> >
+class pair<reco::PFTauRef,float>
+class pair<reco::PFTauRef,int>
+class pair<reco::PFTauRef,reco::PFTauDecayMode>
+class pair<reco::PFTauRef,reco::PFTauTransverseImpactParameterRef>
+class pair<reco::PFTauRef,reco::VertexRef>
+class pair<reco::PFTauRef,std::vector<reco::PFTau3ProngSummaryRef> >
+class pair<reco::PFTauRef,std::vector<reco::VertexRef> >
+class reco::CaloTauDiscriminatorAgainstElectron
+class reco::CaloTauDiscriminatorAgainstElectronRef
+class reco::CaloTauDiscriminatorAgainstElectronRefProd
+class reco::CaloTauDiscriminatorAgainstElectronRefVector
+class reco::JetPiZeroAssociation
+class reco::JetPiZeroAssociationBase
+class reco::JetPiZeroAssociationRef
+class reco::JetPiZeroAssociationRefProd
+class reco::JetPiZeroAssociationRefVector
+class reco::PFJetChargedHadronAssociation
+class reco::PFJetChargedHadronAssociationBase
+class reco::PFJetChargedHadronAssociationRef
+class reco::PFJetChargedHadronAssociationRefProd
+class reco::PFJetChargedHadronAssociationRefVector
+class reco::PFTau3ProngSumAssociation
+class reco::PFTau3ProngSumAssociationRef
+class reco::PFTau3ProngSumAssociationRefProd
+class reco::PFTau3ProngSumAssociationRefVector
+class reco::PFTau3ProngSummary
+class reco::PFTauDecayModeAssociation
+class reco::PFTauDecayModeAssociationRef
+class reco::PFTauDecayModeAssociationRefProd
+class reco::PFTauDecayModeAssociationRefVector
+class reco::PFTauDiscriminator
+class reco::PFTauDiscriminatorBase
+class reco::PFTauDiscriminatorByIsolation
+class reco::PFTauDiscriminatorByIsolationBase
+class reco::PFTauDiscriminatorByIsolationRef
+class reco::PFTauDiscriminatorByIsolationRefProd
+class reco::PFTauDiscriminatorByIsolationRefVector
+class reco::PFTauDiscriminatorRef
+class reco::PFTauDiscriminatorRefProd
+class reco::PFTauDiscriminatorRefVector
+class reco::PFTauTIPAssociation
+class reco::PFTauTIPAssociationRef
+class reco::PFTauTIPAssociationRefProd
+class reco::PFTauTIPAssociationRefVector
+class reco::PFTauTransverseImpactParameter
+class reco::PFTauVertexAssociation
+class reco::PFTauVertexAssociationRef
+class reco::PFTauVertexAssociationRefProd
+class reco::PFTauVertexAssociationRefVector
+class reco::PFTauVertexVAssociation
+class reco::PFTauVertexVAssociationRef
+class reco::PFTauVertexVAssociationRefProd
+class reco::PFTauVertexVAssociationRefVector
+class vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > >
+class vector<edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > >
+class vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > >
+class vector<pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float> >
+class vector<pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int> >
+class vector<pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::PFRecoTauChargedHadron> > >
+class vector<pair<edm::Ref<vector<reco::PFJet>,reco::PFJet,edm::refhelper::FindUsingAdvance<vector<reco::PFJet>,reco::PFJet> >,vector<reco::RecoTauPiZero> > >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter,edm::refhelper::FindUsingAdvance<vector<reco::PFTauTransverseImpactParameter>,reco::PFTauTransverseImpactParameter> > > >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,float> >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,int> >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,reco::PFTauDecayMode> >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary,edm::refhelper::FindUsingAdvance<vector<reco::PFTau3ProngSummary>,reco::PFTau3ProngSummary> > > > >
+class vector<pair<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >,vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > > >
+class vector<reco::PFTau3ProngSummary>
+class vector<reco::PFTau3ProngSummaryCollection>
+class vector<reco::PFTau3ProngSummaryRef>
+class vector<reco::PFTauTransverseImpactParameter>
+class vector<reco::PFTauTransverseImpactParameterCollection>
+class vector<reco::PFTauTransverseImpactParameterRef>
+class vector<reco::VertexRef>
+class vector<std::pair<reco::CaloTauRef,float> >
+class vector<std::pair<reco::CaloTauRef,int> >
+class vector<std::pair<reco::PFJetRef,std::vector<reco::PFRecoTauChargedHadron> > >
+class vector<std::pair<reco::PFJetRef,std::vector<reco::RecoTauPiZero> > >
+class vector<std::pair<reco::PFTauRef,float> >
+class vector<std::pair<reco::PFTauRef,int> >
+class vector<std::pair<reco::PFTauRef,reco::PFTauDecayMode> >
+class vector<std::pair<reco::PFTauRef,reco::PFTauTransverseImpactParameterRef> >
+class vector<std::pair<reco::PFTauRef,reco::VertexRef> >
+class vector<std::pair<reco::PFTauRef,std::vector<reco::PFTau3ProngSummaryRef> > >
+class vector<std::pair<reco::PFTauRef,std::vector<reco::VertexRef> > >
+class vector<std::vector<TLorentzVector> >
+class vector<std::vector<reco::VertexRef> >
+class vector<vector<TLorentzVector> >
+class vector<vector<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> > > >
+class vector<vector<reco::PFTau3ProngSummary> >
+class vector<vector<reco::PFTauTransverseImpactParameter> >
+header DataFormats/TauReco/interface/CaloTauDiscriminatorAgainstElectron.h
+header DataFormats/TauReco/interface/JetPiZeroAssociation.h
+header DataFormats/TauReco/interface/PFJetChargedHadronAssociation.h
+header DataFormats/TauReco/interface/PFTau3ProngSummary.h
+header DataFormats/TauReco/interface/PFTauDiscriminator.h
+header DataFormats/TauReco/interface/PFTauDiscriminatorByIsolation.h
+header DataFormats/TauReco/interface/PFTauTransverseImpactParameter.h
+# List of selected typedefs and outer classes

@@ -1,0 +1,24 @@
+tmp/slc6_amd64_gcc630/src/DataFormats/PatCandidates/test/testDataFormatsPatCandidates/testPackedCandidate.o: \
+ src/DataFormats/PatCandidates/test/testPackedCandidate.cc \
+ src/DataFormats/PatCandidates/interface/PackedCandidate.h \
+ src/DataFormats/VertexReco/interface/VertexFwd.h \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+ src/DataFormats/PatCandidates/interface/CovarianceParameterization.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/PatCandidates/test/testDataFormatsPatCandidates/testPackedGenParticle.o: \
+ src/DataFormats/PatCandidates/test/testPackedGenParticle.cc \
+ src/DataFormats/PatCandidates/interface/PackedGenParticle.h \
+ src/DataFormats/VertexReco/interface/VertexFwd.h \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/PatCandidates/test/testDataFormatsPatCandidates/testMiniFloat.o: \
+ src/DataFormats/PatCandidates/test/testMiniFloat.cpp \
+ src/DataFormats/PatCandidates/interface/libminifloat.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/PatCandidates/test/testDataFormatsPatCandidates/testlogintpack.o: \
+ src/DataFormats/PatCandidates/test/testlogintpack.cpp \
+ src/DataFormats/PatCandidates/interface/liblogintpack.h
+
+tmp/slc6_amd64_gcc630/src/DataFormats/PatCandidates/test/testDataFormatsPatCandidates/testRunner.o: \
+ src/DataFormats/PatCandidates/test/testRunner.cpp \
+

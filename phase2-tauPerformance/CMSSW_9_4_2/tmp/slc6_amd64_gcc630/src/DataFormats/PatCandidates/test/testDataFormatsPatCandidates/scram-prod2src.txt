@@ -1,0 +1,1 @@
+testDataFormatsPatCandidates DataFormats/PatCandidates/testtestPackedCandidate.cc DataFormats/PatCandidates/testtestPackedGenParticle.cc DataFormats/PatCandidates/testtestMiniFloat.cpp DataFormats/PatCandidates/testtestlogintpack.cpp DataFormats/PatCandidates/testtestRunner.cpp

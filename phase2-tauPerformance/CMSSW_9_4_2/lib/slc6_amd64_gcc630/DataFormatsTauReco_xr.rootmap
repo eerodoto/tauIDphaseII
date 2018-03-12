@@ -1,0 +1,133 @@
+{ decls }
+namespace edm {  }
+namespace reco { class PFTau; }
+namespace reco { class RecoTauPiZero; }
+namespace reco { class PFRecoTauChargedHadron; }
+namespace reco { class PFTauDecayMode; }
+namespace reco { class CaloTauDiscriminatorByIsolation; }
+namespace reco { class CaloTauDiscriminator; }
+namespace edm { template <typename T> class RefToBase; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class RefToBaseVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { template <typename C> class Association; }
+namespace edm { namespace reftobase {  } }
+namespace edm { namespace reftobase { template <typename T> class BaseHolder; } }
+namespace reco { class BaseTau; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace reco { class CompositeCandidate; }
+namespace reco { class CompositePtrCandidate; }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace edm { namespace reftobase { template <typename T> class IndirectHolder; } }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace edm { namespace reftobase { template <typename T> class BaseVectorHolder; } }
+namespace std {  }
+namespace edm { template <typename T> class RefToBaseProd; }
+namespace reco { class CaloTau; }
+namespace edm { namespace helper { class AssociationIdenticalKeyReference; } }
+namespace reco {  }
+
+[ libDataFormatsTauReco.so ]
+# List of selected classes
+class edm::Association<std::vector<reco::PFTau> >
+class edm::Association<std::vector<reco::PFTauDecayMode> >
+class edm::Association<vector<reco::PFTau> >
+class edm::Association<vector<reco::PFTauDecayMode> >
+class edm::AssociationVector<edm::RefProd<vector<reco::CaloTau> >,vector<float>,edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::CaloTau> >,vector<int>,edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::Ref<reco::CaloTauDiscriminator,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminator,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float> > >
+class edm::Ref<reco::CaloTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int> > >
+class edm::Ref<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> >
+class edm::Ref<std::vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau>,reco::PFTau> >
+class edm::Ref<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> >
+class edm::Ref<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> >
+class edm::Ref<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> >
+class edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >
+class edm::Ref<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> >
+class edm::Ref<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> >
+class edm::RefProd<reco::CaloTauDiscriminator>
+class edm::RefProd<reco::CaloTauDiscriminatorByIsolation>
+class edm::RefProd<std::vector<reco::PFRecoTauChargedHadron> >
+class edm::RefProd<std::vector<reco::PFTau> >
+class edm::RefProd<std::vector<reco::PFTauDecayMode> >
+class edm::RefProd<std::vector<reco::RecoTauPiZero> >
+class edm::RefProd<vector<reco::PFRecoTauChargedHadron> >
+class edm::RefProd<vector<reco::PFTau> >
+class edm::RefProd<vector<reco::PFTauDecayMode> >
+class edm::RefProd<vector<reco::RecoTauPiZero> >
+class edm::RefToBase<reco::PFTau>
+class edm::RefToBaseProd<reco::PFTau>
+class edm::RefToBaseVector<reco::PFTau>
+class edm::RefVector<reco::CaloTauDiscriminator,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminator,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,float> > >
+class edm::RefVector<reco::CaloTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int>,edm::refhelper::FindUsingAdvance<reco::CaloTauDiscriminatorByIsolation,pair<edm::Ref<vector<reco::CaloTau>,reco::CaloTau,edm::refhelper::FindUsingAdvance<vector<reco::CaloTau>,reco::CaloTau> >,int> > >
+class edm::RefVector<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> >
+class edm::RefVector<std::vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau>,reco::PFTau> >
+class edm::RefVector<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> >
+class edm::RefVector<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> >
+class edm::RefVector<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> >
+class edm::RefVector<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> >
+class edm::RefVector<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> >
+class edm::RefVector<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTau> > >
+class edm::Wrapper<edm::Association<std::vector<reco::PFTauDecayMode> > >
+class edm::Wrapper<edm::Association<vector<reco::PFTau> > >
+class edm::Wrapper<edm::Association<vector<reco::PFTauDecayMode> > >
+class edm::Wrapper<edm::RefToBaseVector<reco::PFTau> >
+class edm::Wrapper<edm::RefVector<std::vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau>,reco::PFTau> > >
+class edm::Wrapper<edm::RefVector<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> > >
+class edm::Wrapper<reco::CaloTauDiscriminator>
+class edm::Wrapper<reco::CaloTauDiscriminatorByIsolation>
+class edm::Wrapper<std::vector<reco::PFRecoTauChargedHadron> >
+class edm::Wrapper<std::vector<reco::PFTau> >
+class edm::Wrapper<std::vector<reco::PFTauDecayMode> >
+class edm::Wrapper<std::vector<reco::RecoTauPiZero> >
+class edm::Wrapper<vector<reco::PFRecoTauChargedHadron> >
+class edm::Wrapper<vector<reco::PFTau> >
+class edm::Wrapper<vector<reco::PFTauDecayMode> >
+class edm::Wrapper<vector<reco::RecoTauPiZero> >
+class edm::reftobase::BaseHolder<reco::PFTau>
+class edm::reftobase::BaseVectorHolder<reco::PFTau>
+class edm::reftobase::Holder<reco::BaseTau,edm::Ref<std::vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTau>,reco::PFTau> > >
+class edm::reftobase::Holder<reco::BaseTau,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> > >
+class edm::reftobase::Holder<reco::CompositeCandidate,edm::Ref<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<std::vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> > >
+class edm::reftobase::Holder<reco::CompositeCandidate,edm::Ref<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode,edm::refhelper::FindUsingAdvance<vector<reco::PFTauDecayMode>,reco::PFTauDecayMode> > >
+class edm::reftobase::Holder<reco::CompositePtrCandidate,edm::Ref<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<std::vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> > >
+class edm::reftobase::Holder<reco::CompositePtrCandidate,edm::Ref<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> > >
+class edm::reftobase::Holder<reco::CompositePtrCandidate,edm::Ref<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron,edm::refhelper::FindUsingAdvance<vector<reco::PFRecoTauChargedHadron>,reco::PFRecoTauChargedHadron> > >
+class edm::reftobase::Holder<reco::CompositePtrCandidate,edm::Ref<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero,edm::refhelper::FindUsingAdvance<vector<reco::RecoTauPiZero>,reco::RecoTauPiZero> > >
+class edm::reftobase::Holder<reco::PFTau,edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> > >
+class edm::reftobase::Holder<reco::PFTau,reco::PFTauRef>
+class edm::reftobase::IndirectHolder<reco::PFTau>
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::PFTau>,reco::PFTau,edm::refhelper::FindUsingAdvance<vector<reco::PFTau>,reco::PFTau> > >
+class edm::reftobase::RefHolder<reco::PFTauRef>
+class reco::CaloTauDiscriminator
+class reco::CaloTauDiscriminatorBase
+class reco::CaloTauDiscriminatorByIsolation
+class reco::CaloTauDiscriminatorByIsolationBase
+class reco::CaloTauDiscriminatorByIsolationRef
+class reco::CaloTauDiscriminatorByIsolationRefProd
+class reco::CaloTauDiscriminatorByIsolationRefVector
+class reco::CaloTauDiscriminatorRef
+class reco::CaloTauDiscriminatorRefProd
+class reco::CaloTauDiscriminatorRefVector
+class reco::PFRecoTauChargedHadron
+class reco::PFTau
+class reco::PFTauDecayMode
+class reco::RecoTauPiZero
+class vector<reco::PFRecoTauChargedHadron>
+class vector<reco::PFTau>
+class vector<reco::PFTauDecayMode>
+class vector<reco::RecoTauPiZero>
+class vector<std::vector<reco::PFRecoTauChargedHadron> >
+class vector<std::vector<reco::RecoTauPiZero> >
+class vector<vector<reco::PFRecoTauChargedHadron> >
+class vector<vector<reco::RecoTauPiZero> >
+header DataFormats/TauReco/interface/CaloTauDiscriminator.h
+header DataFormats/TauReco/interface/CaloTauDiscriminatorByIsolation.h
+header DataFormats/TauReco/interface/PFRecoTauChargedHadron.h
+header DataFormats/TauReco/interface/PFTau.h
+header DataFormats/TauReco/interface/PFTauDecayMode.h
+header DataFormats/TauReco/interface/RecoTauPiZero.h
+# List of selected typedefs and outer classes

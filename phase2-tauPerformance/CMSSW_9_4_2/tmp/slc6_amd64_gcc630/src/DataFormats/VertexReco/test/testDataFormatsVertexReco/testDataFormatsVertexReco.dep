@@ -1,0 +1,7 @@
+tmp/slc6_amd64_gcc630/src/DataFormats/VertexReco/test/testDataFormatsVertexReco/testVertex.o: \
+ src/DataFormats/VertexReco/test/testVertex.cc \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/VertexReco/test/testDataFormatsVertexReco/testRunner.o: \
+ src/DataFormats/VertexReco/test/testRunner.cpp \
+

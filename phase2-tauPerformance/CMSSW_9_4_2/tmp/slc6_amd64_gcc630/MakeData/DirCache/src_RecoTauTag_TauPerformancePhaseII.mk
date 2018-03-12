@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoTauTag/TauPerformancePhaseII
+subdirs_src_RecoTauTag_TauPerformancePhaseII := src_RecoTauTag_TauPerformancePhaseII_python src_RecoTauTag_TauPerformancePhaseII_test src_RecoTauTag_TauPerformancePhaseII_plugins

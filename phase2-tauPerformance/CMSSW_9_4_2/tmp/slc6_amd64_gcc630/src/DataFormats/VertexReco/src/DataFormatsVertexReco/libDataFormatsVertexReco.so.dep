@@ -1,0 +1,15 @@
+tmp/slc6_amd64_gcc630/src/DataFormats/VertexReco/src/DataFormatsVertexReco/a/DataFormatsVertexReco_xr.cc: \
+ src/DataFormats/VertexReco/src/classes.h \
+ src/DataFormats/VertexReco/src/classes.h \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+ src/DataFormats/VertexReco/interface/NuclearInteraction.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/VertexReco/src/DataFormatsVertexReco/Vertex.o: \
+ src/DataFormats/VertexReco/src/Vertex.cc \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+
+tmp/slc6_amd64_gcc630/src/DataFormats/VertexReco/src/DataFormatsVertexReco/print.o: \
+ src/DataFormats/VertexReco/src/print.cc \
+ src/DataFormats/VertexReco/interface/print.h \
+ src/DataFormats/VertexReco/interface/Vertex.h \
+

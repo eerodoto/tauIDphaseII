@@ -1,0 +1,78 @@
+{ decls }
+namespace std {  }
+namespace edm {  }
+namespace reco { class Vertex; }
+namespace reco { class NuclearInteraction; }
+namespace edm { template <typename T> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { template <typename CKey, typename CVal, typename Q, typename index> class OneToManyWithQuality; }
+namespace edm { template <typename , typename , typename , typename > class OneToManyWithQuality; }
+namespace edm { template <typename C> class Association; }
+namespace edm { namespace helpers {  } }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace edm { namespace helpers { template <typename K, typename V> class KeyVal; } }
+namespace reco { class Track; }
+namespace edm { template <typename Tag> class AssociationMap; }
+namespace reco {  }
+
+[ libDataFormatsVertexReco.so ]
+# List of selected classes
+class edm::Association<std::vector<reco::Vertex> >
+class edm::Association<vector<reco::Vertex> >
+class edm::AssociationMap<edm::OneToManyWithQuality<std::vector<reco::Track>,std::vector<reco::Vertex>,int,unsigned int> >
+class edm::AssociationMap<edm::OneToManyWithQuality<std::vector<reco::Vertex>,std::vector<reco::Track>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToManyWithQuality<std::vector<reco::Vertex>,std::vector<reco::Track>,int,unsigned int> >
+class edm::AssociationMap<edm::OneToManyWithQuality<vector<reco::Track>,vector<reco::Vertex>,int,unsigned int> >
+class edm::AssociationMap<edm::OneToManyWithQuality<vector<reco::Vertex>,vector<reco::Track>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToManyWithQuality<vector<reco::Vertex>,vector<reco::Track>,int,unsigned int> >
+class edm::Ref<std::vector<reco::NuclearInteraction>,reco::NuclearInteraction,edm::refhelper::FindUsingAdvance<std::vector<reco::NuclearInteraction>,reco::NuclearInteraction> >
+class edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >
+class edm::Ref<vector<reco::NuclearInteraction>,reco::NuclearInteraction,edm::refhelper::FindUsingAdvance<vector<reco::NuclearInteraction>,reco::NuclearInteraction> >
+class edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >
+class edm::RefProd<std::vector<reco::NuclearInteraction> >
+class edm::RefProd<std::vector<reco::Vertex> >
+class edm::RefProd<vector<reco::NuclearInteraction> >
+class edm::RefProd<vector<reco::Vertex> >
+class edm::RefVector<std::vector<reco::NuclearInteraction>,reco::NuclearInteraction,edm::refhelper::FindUsingAdvance<std::vector<reco::NuclearInteraction>,reco::NuclearInteraction> >
+class edm::RefVector<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >
+class edm::RefVector<vector<reco::NuclearInteraction>,reco::NuclearInteraction,edm::refhelper::FindUsingAdvance<vector<reco::NuclearInteraction>,reco::NuclearInteraction> >
+class edm::RefVector<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >
+class edm::Wrapper<edm::Association<std::vector<reco::Vertex> > >
+class edm::Wrapper<edm::Association<vector<reco::Vertex> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQuality<std::vector<reco::Vertex>,std::vector<reco::Track>,float,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQuality<std::vector<reco::Vertex>,std::vector<reco::Track>,int,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQuality<vector<reco::Vertex>,vector<reco::Track>,float,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQuality<vector<reco::Vertex>,vector<reco::Track>,int,unsigned int> > >
+class edm::Wrapper<std::vector<reco::NuclearInteraction> >
+class edm::Wrapper<std::vector<reco::Vertex> >
+class edm::Wrapper<vector<reco::NuclearInteraction> >
+class edm::Wrapper<vector<reco::Vertex> >
+class edm::helpers::KeyVal<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,std::vector<std::pair<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,int> > >
+class edm::helpers::KeyVal<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,std::vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,float> > >
+class edm::helpers::KeyVal<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,std::vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,int> > >
+class edm::helpers::KeyVal<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,vector<pair<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,int> > >
+class edm::helpers::KeyVal<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,float> > >
+class edm::helpers::KeyVal<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,int> > >
+class edm::helpers::KeyVal<edm::RefProd<std::vector<reco::Track> >,edm::RefProd<std::vector<reco::Vertex> > >
+class edm::helpers::KeyVal<edm::RefProd<std::vector<reco::Vertex> >,edm::RefProd<std::vector<reco::Track> > >
+class edm::helpers::KeyVal<edm::RefProd<vector<reco::Track> >,edm::RefProd<vector<reco::Vertex> > >
+class edm::helpers::KeyVal<edm::RefProd<vector<reco::Vertex> >,edm::RefProd<vector<reco::Track> > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,std::vector<std::pair<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,int> > > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,std::vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,float> > > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,std::vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,int> > > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,vector<pair<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,int> > > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,float> > > >
+class map<unsigned int,edm::helpers::KeyVal<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,int> > > >
+class pair<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,int>
+class pair<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,int>
+class reco::NuclearInteraction
+class reco::Vertex
+class vector<pair<edm::Ref<vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<vector<reco::Vertex>,reco::Vertex> >,int> >
+class vector<reco::NuclearInteraction>
+class vector<reco::Vertex>
+class vector<std::pair<edm::Ref<std::vector<reco::Vertex>,reco::Vertex,edm::refhelper::FindUsingAdvance<std::vector<reco::Vertex>,reco::Vertex> >,int> >
+header DataFormats/VertexReco/interface/NuclearInteraction.h
+header DataFormats/VertexReco/interface/Vertex.h
